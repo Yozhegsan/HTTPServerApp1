@@ -10,6 +10,7 @@ namespace HTTPServerApp1
     {
         static void Main(string[] args)
         {
+            new myServer(11000);
         }
     }
 }

@@ -14,7 +14,7 @@ using System.IO;
 
 namespace HTTPServerApp1
 {
-    class myClient
+    public class myClient
     {
         // Отправка страницы с ошибкой
         private void SendError(TcpClient Client, int Code)

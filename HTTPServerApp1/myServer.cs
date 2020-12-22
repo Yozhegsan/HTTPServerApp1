@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HTTPServerApp1
 {
-    class myServer
+    public class myServer
     {
         TcpListener Listener; // Объект, принимающий TCP-клиентов
 
@@ -48,10 +48,5 @@ namespace HTTPServerApp1
             }
         }
 
-        static void Main(string[] args)
-        {
-            // Создадим новый сервер на порту 80
-            new myServer(80);
-        }
     }
 }
